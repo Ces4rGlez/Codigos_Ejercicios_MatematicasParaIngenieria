@@ -1,4 +1,4 @@
-# Repositorio de EDOs Numéricas 🧮
+# Repositorio de EDOs Numéricas 
 
 Solución numérica de Ecuaciones Diferenciales Ordinarias (EDO) usando:
 - **Euler - Euler Mejorado (Heun)** — método de orden 2
@@ -11,21 +11,21 @@ Solución numérica de Ecuaciones Diferenciales Ordinarias (EDO) usando:
 ```
 /
 ├── Euler-Euler_mejorado/
-│   ├── 01_euler_mejorado.py   → y' = 0.1√y + 0.4x²,  y(2)=4,  y(2+nh)
-│   ├── 02_euler_mejorado.py           → y' = x√y,             y(1)=4,  y(10)
-│   ├── 03_euler_mejorado.py        → y' = x²-3y,           y(0)=1,  y(15)
-│   ├── 04_euler_mejorado.py     → y' = -y^(3/2)+1,      y(0)=10, y(20)
-│   ├── 05_euler_mejorado.py            → y' = y·tan(x),        y(0)=1,  y(5)
-│   └── 06_euler_mejorado.py           → y' = x+y²,            y(1)=0,  y(1.5)
+│   ├── 01_euler_mejorado.py   
+│   ├── 02_euler_mejorado.py         
+│   ├── 03_euler_mejorado.py     
+│   ├── 04_euler_mejorado.py     
+│   ├── 05_euler_mejorado.py        
+│   └── 06_euler_mejorado.py           
 │
 ├── RK4/
-│   ├── 01_rk4.py                     → y' = x√y,             y(1)=4,  y(10)
-│   ├── 02_rk4.py                  → y' = x²-3y,           y(0)=1,  y(15)
-│   ├── 03_rk4.py               → y' = -y^(3/2)+1,      y(0)=10, y(20)
-│   ├── 04_rk4.py                      → y' = y·tan(x),        y(0)=1,  y(5)
-│   └── 05_rk4.py                     → y' = x+y²,            y(1)=0,  y(1.5)
+│   ├── 01_rk4.py                  
+│   ├── 02_rk4.py               
+│   ├── 03_rk4.py              
+│   ├── 04_rk4.py                     
+│   └── 05_rk4.py                    
 │
-└── Universal_Code.py                     ← ⭐ SOLVER GLOBAL CONFIGURABLE
+└── Universal_Code.py                     ←  SOLVER GLOBAL CONFIGURABLE
 ```
 
 ---
